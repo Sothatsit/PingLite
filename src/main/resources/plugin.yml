@@ -1,0 +1,20 @@
+main: net.sothatsit.pinglite.PingLite
+author: sothatsit
+name: PingLite
+version: 1.2
+commands:
+   pinglite:
+      description: 'Manage ping message via command'
+permissions:
+   pinglite.set.lines:
+      description: 'Permission to set the lines of the ping message'
+      default: op
+   pinglite.set.playercount:
+      description: 'Permission to set the player count mode'
+      default: op
+   pinglite.set.icon:
+      description: 'Permission to set the ping icon'
+      default: op
+   pinglite.info:
+      description: 'Get the current ping info'
+      default: op
